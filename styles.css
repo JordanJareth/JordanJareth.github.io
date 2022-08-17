@@ -8,11 +8,19 @@ h1{
 
 h2{
     text-align: center;
+    font-size: medium;
 }
 
+header{
+    background-color: cornflowerblue;
+}
+
+nav{
+    background-color: steelblue;
+}
 a{
     text-decoration: none;
-    color: blue;
+    color: black;
     margin-left: 15px;
 }
 
