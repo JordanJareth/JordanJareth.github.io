@@ -11,12 +11,27 @@ h2{
     font-size: medium;
 }
 
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(23, 21, 21);
+}
+
+span{
+    color: #000;
+font-weight: bolder;
+}
+
 header{
-    background-color: cornflowerblue;
+    text-align: center;
+    color: #000;
+font-weight: bolder;
+font-size: 30px;
+
 }
 
 nav{
-    background-color: steelblue;
+    background-color: rgb(91, 155, 207);
 }
 a{
     text-decoration: none;
@@ -34,4 +49,44 @@ footer{
     margin-top: 340px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.contenedor{
+    margin: auto;
+    display: table;
+}
+
+h1{
+    float: left;
+    color: black;
+    position: relative;
+}
+
+h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: white;
+    border-left: 1px solid #000;
+    animation: maquina 5s infinite alternate steps(30);
+}
+
+.imagenes{
+    margin-left: 20;
+    margin-right: 20;
+    align-content: space-around;
+}
+
+img {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
 }
