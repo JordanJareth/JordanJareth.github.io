@@ -1,12 +1,12 @@
 var typed = new Typed('.typed', {
 	strings: [
-		'<i class="mascota">Laravel</i>',
-		'<i class="mascota">Vue</i>',
-		'<i class="mascota">MYSQL</i>',
-		'<i class="mascota">Vuex</i>',
-        '<i class="mascota">HTML</i>',
-        '<i class="mascota">CSS</i>',
-        '<i class="mascota">JavaScript</i>',
+		'<i>Laravel</i>',
+		'<i>Vue</i>',
+		'<i>MYSQL</i>',
+		'<i>Vuex</i>',
+        '<i>HTML</i>',
+        '<i>CSS</i>',
+        '<i>JavaScript</i>',
 	],
 	stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
 	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,

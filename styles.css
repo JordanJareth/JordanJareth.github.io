@@ -14,20 +14,26 @@ body{
 }
 
 h1 {
+  font-size: 4.8rem;
+  color: #fff;
+  text-shadow: 7px 4px 5px rgb(47, 230, 199);
+}
+
+h2 {
   font-size: 3.8rem;
   color: #fff;
 }
-h2 {
-  font-size: 2.8rem;
-  color: #fff;
-}
 h3 {
-  font-size: 1.8rem;
+  font-size: 3.8rem;
   color: #fff;
 
 }
 h1,h2,h3 {
   text-align: center;
+}
+
+a{
+  text-decoration: none;
 }
 
 .titulo span {
@@ -70,25 +76,50 @@ h1,h2,h3 {
   display: block;
   text-align: center;
   color: #fff;
+  text-shadow: 
+    3px 3px 1px rgb(17, 0, 255),
+    5px 5px 2px rgb(15, 146, 233),
+    8px 8px 3px rgb(6, 69, 99);
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
   padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .navegacion-principal a:hover {
   background-color: rgb(0, 123, 255);
   color: #fff;
 }
 
+
+.container{
+  margin: auto;
+  background-color: rebeccapurple;
+}
 .typed{
 font-weight: bolder;
+font-size: 4.8rem;
 color: rgb(0, 123, 255);
 }
 
+.frameworks{
+  height: 150px;
+  width: 200;
+  max-width: max-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+h4{
+  font-size: 3.8rem;
+  color: #fff;
+}
 header{
   align-items: center;
-    font-weight: bolder;
-    font-size: 30px;
+  font-weight: bolder;
+  font-size: 30px;
 }
 
 
@@ -102,7 +133,6 @@ header{
 .im {
   padding: 10px;
   margin: 10px;
-  
   /* IMPORTANTE */
   display: inline-block;
 }
@@ -111,6 +141,8 @@ header{
   .img {
       flex-direction: row;
       justify-content: space-between;
+      margin-left: 20px;
+      margin-right: 20px;
   }
   .im {
     flex-direction: row;

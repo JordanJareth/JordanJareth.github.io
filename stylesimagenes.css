@@ -1,0 +1,23 @@
+.imagenes{
+    text-align: center;
+    max-width: max-content;
+    margin: 50px auto 0px auto;
+}
+
+.info{
+width: 1000px;
+margin: 2px auto;
+}
+
+.Nombre{
+    color: antiquewhite;
+    font-size: 50px;
+    text-shadow: 
+    3px 3px 1px rgb(176, 68, 226),
+    5px 5px 2px rgb(74, 247, 88),
+    8px 8px 3px rgb(41, 149, 199);
+}
+ .Inf{
+    color: antiquewhite;
+    font-size: 30px;
+ }
