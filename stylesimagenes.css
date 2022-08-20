@@ -1,13 +1,26 @@
-.imagenes{
+img.imagenes{
     text-align: center;
-    max-width: max-content;
-    margin: 50px auto 0px auto;
+width: 10px;
+height: 10px;
 }
 
 .info{
-width: 1000px;
-margin: 2px auto;
+width: 650px;
+margin: auto auto;
 }
+
+@media (min-width: 768px) {
+    .imagenes{
+        text-align: center;
+        max-width: max-content;
+        margin: 50px auto 0px auto;
+    }
+    
+    .info{
+    width: 1500px;
+    margin: auto auto;
+    }
+  }
 
 .Nombre{
     color: antiquewhite;

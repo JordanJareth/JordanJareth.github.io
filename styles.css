@@ -149,3 +149,11 @@ header{
     justify-content: space-between;
 }
 }
+
+footer{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: large;
+  text-align: center;
+  color: #fff;
+}
